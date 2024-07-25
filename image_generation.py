@@ -21,7 +21,7 @@ body = json.dumps(
             "negativeText": negative_prompts,  # Optional
         },
         "imageGenerationConfig": {
-            "numberOfImages": 1,  # Range: 1 to 5
+            "numberOfImages": 2,
             "quality": "standard",  # Options: standard or premium
             "height": 1024,  # Supported height list in the docs
             "width": 1024,  # Supported width list in the docs
